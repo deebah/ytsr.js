@@ -3,14 +3,26 @@
   "version": "1.0.0",
   "description": "Search YouTube without an API key.",
   "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/deebah/yt-searcher/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deebah/yt-searcher.git/"
+  },
+  "homepage": "https://github.com/deebah/yt-searcher#readme",
   "dependencies": {
     "axios": "^0.21.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+      "YouTube",
+      "search",
+      "ytsearch",
+      "youtubesearch",
+      "promise",
+      "quick"
+  ],
+  "author": "deebah",
   "license": "ISC"
 }
