@@ -6,19 +6,19 @@
 
 ## About
 
-yt-searcher is an easy to use [node.js](https://nodejs.org/) module that gets YouTube search results quickly.
+ytsr.js is an easy to use [node.js](https://nodejs.org/) module that gets YouTube search results quickly.
 It doesn't require any API keys to use!
 
 ## Installation
 
 ```bash
-npm install yt-searcher
+npm install ytsr.js
 ```
 
 ## Usage
 
 ```javascript
-const search = require('yt-searcher');
+const search = require('ytsr.js');
 
 (async query => {
     const res = await search(query);
