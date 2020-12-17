@@ -1,6 +1,6 @@
 {
   "name": "ytsr.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Search YouTube without an API key.",
   "main": "index.js",
   "bugs": {
@@ -16,12 +16,12 @@
   },
   "devDependencies": {},
   "keywords": [
-      "YouTube",
-      "search",
-      "ytsearch",
-      "youtubesearch",
-      "promise",
-      "quick"
+    "YouTube",
+    "search",
+    "ytsearch",
+    "youtubesearch",
+    "promise",
+    "quick"
   ],
   "author": "deebah",
   "license": "ISC"
