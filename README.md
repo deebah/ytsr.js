@@ -22,6 +22,6 @@ const search = require('yt-searcher');
 
 (async query => {
     const res = await search(query);
-    console.log(res.results);
+    console.log(res);
 })("Kids by Current Joys");
 ```
