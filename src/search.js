@@ -1,7 +1,7 @@
 const axios = require('axios');
 const parseJsonFormat = require('./methods/parseJsonFormat');
 
-const search = async query => {
+const search = async (query, options) => {
     if (!query) throw new TypeError("Query cannot be null.");
     const json = { results: [] };
     let data, sectionLists = [];
@@ -25,6 +25,12 @@ const search = async query => {
     }
 
     const j = parseJsonFormat(sectionLists, json);
+
+    if (options && options.type.toLowerCase() === "video") {
+        j.results = j.results.filter(vid => vid.video);
+    } else if (options && options.type.toLowerCase() === "playlist") {
+        j.results = j.results.filter(vid => vid.playlist);
+    }
 
     return j;
 }

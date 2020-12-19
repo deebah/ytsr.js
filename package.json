@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "Search YouTube without an API key.",
   "main": "index.js",
+  "scripts": {
+      "test": "node test/test.js"
+  },
   "bugs": {
     "url": "https://github.com/deebah/ytsr.js/issues"
   },
